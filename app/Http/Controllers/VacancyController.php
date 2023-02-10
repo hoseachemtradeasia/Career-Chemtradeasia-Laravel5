@@ -139,7 +139,7 @@ class VacancyController extends Controller
         }
         
 
-        return view('vacancy', [
+        return view('vacancy-coba', [
             'country_list' => $country_list,
             'departments' => $departments,
             'department_list' => $department_list,

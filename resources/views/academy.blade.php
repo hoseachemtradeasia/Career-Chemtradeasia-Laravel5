@@ -8,6 +8,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <link href="https://cdn.chemtradeasia.com/favicon.ico" rel="shortcut icon">
+
   <title>Career - Tradeasia International</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">

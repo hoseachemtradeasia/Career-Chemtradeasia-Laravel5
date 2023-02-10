@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'CareerController@index');
 Route::get('/vacancy', 'VacancyController@index');
+
 Route::get('/form/{id}', 'FormController@index');
 Route::post('/form/proses', 'FormController@store');
 Route::get('/faq', 'FAQController@index');
@@ -26,6 +27,11 @@ Route::get('/detailjob/{id}', 'DetailJobController@index');
 Route::get('/about-us', function () {
     return view('aboutus');
 });
+
+Route::get('/detail-vacancy', function () {
+    return view('detail-job');
+});
+
 
 Route::get('/academy', function () {
     return view('academy');
