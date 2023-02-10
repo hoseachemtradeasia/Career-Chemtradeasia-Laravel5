@@ -16,7 +16,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'CareerController@index');
-Route::get('/vacancy', 'VacancyController@index');
+
+//salsa
+Route::get('/vacancy', 'SalsaController@index');
+Route::get('/detail-vacancy/{id}', 'SalsaController@detailvacancy');
+//salsa
 
 Route::get('/form/{id}', 'FormController@index');
 Route::post('/form/proses', 'FormController@store');
@@ -28,9 +32,6 @@ Route::get('/about-us', function () {
     return view('aboutus');
 });
 
-Route::get('/detail-vacancy', function () {
-    return view('detail-job');
-});
 
 
 Route::get('/academy', function () {
