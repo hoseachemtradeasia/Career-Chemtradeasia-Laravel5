@@ -125,7 +125,7 @@
                         </tr>
                     @endforeach
 
-                    {{-- <tr>
+                    <!-- {{-- <tr>
                         <th scope="row">Sales and Marketing Executive</th>
                         <td>Jakarta, Indonesia</td>
                         <td>Sree Logistics Indonesia</td>
@@ -134,7 +134,7 @@
                         <th scope="row">International Trade Sales Intern</th>
                         <td>Cairo, Egypt</td>
                         <td>Tradeasia International</td>
-                    </tr> --}}
+                    </tr> --}} -->
                 </tbody>
             </table>
         </div>
